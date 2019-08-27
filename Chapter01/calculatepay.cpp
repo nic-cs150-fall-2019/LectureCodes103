@@ -1,6 +1,7 @@
 // calculatepay.cpp
 // This program calculates the user's pay
 // Gabe de la Cruz
+// CS150 103
 #include <iostream>
 
 using namespace std;

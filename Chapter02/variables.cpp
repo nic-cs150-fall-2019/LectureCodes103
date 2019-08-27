@@ -1,6 +1,5 @@
 // variables.cpp
-// Description:
-//    Working with characters. Demonstrate that characters
+// Description: Working with characters. Demonstrate that characters
 //    are internally represented as integers and that
 //    characters are just special integers.
 // Gabe de la Cruz
