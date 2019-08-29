@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
     // Declare character variable
-    char letter = 'A';
+    char letter;
 
     // ASCII value of 'A' is 65, 65 + 10 = 75
     // Check the ASCII table which character has decimal value of 75
