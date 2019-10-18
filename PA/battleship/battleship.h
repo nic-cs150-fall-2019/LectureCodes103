@@ -18,7 +18,9 @@ const char shipSymbols[] = {'c', 'b', 'r', 's', 'd'};
 const int shipSizes[] = {5, 4, 3, 3, 2};
 
 // Function prototypes
-void fillArray(char arr[][NUM_COLS], int rows, int cols);
-void printArray(const char arr[][NUM_COLS], int rows, int cols);
+void initializedBoard(char arr[][NUM_COLS], int rows, int cols);
+void displayBoard(const char arr[][NUM_COLS], int rows, int cols);
+void randomlyPlaceShips(char arr[][NUM_COLS]);
+void manuallyPlaceShips(char arr[][NUM_COLS]);
 
 #endif
