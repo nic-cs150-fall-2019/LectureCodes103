@@ -1,4 +1,5 @@
 # CodeBlocks files and folders
+.vscode
 bin
 obj
 Debug
