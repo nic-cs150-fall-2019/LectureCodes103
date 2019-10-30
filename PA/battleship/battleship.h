@@ -11,6 +11,8 @@ enum ships{CARRIER, BATTLESHIP, CRUISER, SUBMARINE, DESTROYER};
 const int NUM_ROWS = 10;
 const int NUM_COLS = 10;
 
+const int NUM_SHIPS = 5;
+
 // lets store ship info in 3 parallel arrays
 const string shipNames[] = {"carrier", "battleship", "cruiser", "submarine", "destroyer"};
 const char shipSymbols[] = {'c', 'b', 'r', 's', 'd'};

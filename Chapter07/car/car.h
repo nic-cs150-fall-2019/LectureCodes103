@@ -10,6 +10,10 @@ const int SPEED_CHANGE = 5;
 class Car
 {
 public:
+    Car();
+    Car(string make);
+    Car(string make, int year, int speed, string color);
+    ~Car();
     int getYear();
     string getMake();
     int getSpeed();

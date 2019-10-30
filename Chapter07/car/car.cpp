@@ -1,5 +1,27 @@
 #include "car.h"
 
+Car::Car()
+{ }
+
+Car::~Car()
+{ }
+
+Car::Car(string make)
+{
+    m_year = 2000;
+    m_make = make;
+    m_speed = 1;
+    m_color = "Yellow";
+}
+
+Car::Car(string make, int year, int speed, string color)
+{
+    m_make = make;
+    m_year = year;
+    m_speed = speed;
+    m_color = color;
+}
+
 int Car::getYear()
 {
     return m_year;
