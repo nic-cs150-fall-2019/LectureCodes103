@@ -15,7 +15,7 @@ Image::Image(string filename)
 bool Image::readImage(string filename)
 {
     // Code here
-    return true;
+    return true; // Fix return statement, true for successful readImage
 }
 
 void Image::readHeader(ifstream& file)
@@ -31,7 +31,7 @@ void Image::readBody(ifstream& file)
 bool Image::writeImage(string filename)
 {
     // Code here
-    return true;
+    return true; // Fix return statement, true for successful writeImage
 }
 
 void Image::writePpmHeader(ofstream& file)
@@ -47,7 +47,7 @@ void Image::writePpmBody(ofstream& file)
 bool Image::writeGrayScale(string filename)
 {
     // Code here
-    return true;
+    return true; // Fix return statement, true for successful writeGrayScale
 }
 
 void Image::writePgmHeader(ofstream& file)
