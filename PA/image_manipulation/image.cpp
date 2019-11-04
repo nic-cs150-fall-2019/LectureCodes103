@@ -15,7 +15,7 @@ Image::Image(string filename)
 bool Image::readImage(string filename)
 {
     // Code here
-    return true; // Fix return statement, true for successful readImage
+    return true; // Fix return statement
 }
 
 void Image::readHeader(ifstream& file)
@@ -31,7 +31,7 @@ void Image::readBody(ifstream& file)
 bool Image::writeImage(string filename)
 {
     // Code here
-    return true; // Fix return statement, true for successful writeImage
+    return true; // Fix return statement
 }
 
 void Image::writePpmHeader(ofstream& file)
@@ -47,7 +47,7 @@ void Image::writePpmBody(ofstream& file)
 bool Image::writeGrayScale(string filename)
 {
     // Code here
-    return true; // Fix return statement, true for successful writeGrayScale
+    return true; // Fix return statement
 }
 
 void Image::writePgmHeader(ofstream& file)
@@ -63,21 +63,25 @@ void Image::writePgmBody(ofstream& file)
 short Image::computeNegativeValue(short value)
 {
     // Code here
+    return 0; // Fix return statement
 }
 
 short Image::computeHighContrastValue(short value)
 {
     // Code here
+    return 0; // Fix return statement
 }
 
 short Image::computeRandomNoiseValue(short value)
 {
     // Code here
+    return 0; // Fix return statement
 }
 
 short Image::computeGrayScaleValue(RgbPixel pixel)
 {
     // Code here
+    return 0; // Fix return statement
 }
 
 void Image::applyVerticalFlip()
