@@ -32,6 +32,16 @@ void readImageFile(Image& img)
     }
 }
 
+void showImageInfo(const Image& img)
+{
+    cout << "\nIMAGE INFO\n";
+    cout << "==========\n";
+    cout << "Magic Number: " << img.getMagicNumber() << '\n';
+    cout << "Dimension (width x height): " 
+         << img.getWidth() << " x " << img.getHeight() << '\n';
+    cout << "Maximum Color: " << img.getMaxColor() << '\n';
+}
+
 string getFilename()
 {
     string filename;

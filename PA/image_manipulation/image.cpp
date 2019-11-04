@@ -12,6 +12,30 @@ Image::Image(string filename)
     readImage(filename);
 }
 
+string Image::getMagicNumber() const
+{
+    // Code here
+    return ""; // Fix return statement
+}
+
+int Image::getWidth() const
+{
+    // Code here
+    return 0; // Fix return statement
+}
+
+int Image::getHeight() const
+{
+    // Code here
+    return 0; // Fix return statement
+}
+
+int Image::getMaxColor() const
+{
+    // Code here
+    return 0; // Fix return statement
+}
+
 bool Image::readImage(string filename)
 {
     // Code here

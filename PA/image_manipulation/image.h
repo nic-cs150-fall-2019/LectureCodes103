@@ -33,6 +33,12 @@ class Image
 public:
     Image();
     Image(string filename);
+
+    string getMagicNumber() const;
+    int getWidth() const;
+    int getHeight() const;
+    int getMaxColor() const;
+
     bool readImage(string filename);
     bool writeImage(string filename="");
     bool writeGrayScale(string filename="");

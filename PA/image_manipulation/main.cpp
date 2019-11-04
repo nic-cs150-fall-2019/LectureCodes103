@@ -11,6 +11,7 @@ int main()
     while (repeat == 'Y' || repeat == 'y')
     {
         readImageFile(image);
+        showImageInfo(image);
         showMenu();
         while (1)
         {

@@ -7,6 +7,7 @@ using namespace std;
 
 void showMenu();
 void readImageFile(Image& img);
+void showImageInfo(const Image& img);
 string getFilename();
 
 #endif
